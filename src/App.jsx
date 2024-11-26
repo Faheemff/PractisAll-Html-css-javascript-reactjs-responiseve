@@ -3,8 +3,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className=''>
-      
+    <div className='bg-red-500 px-32 py-32 text-center items-center flex justify-center text-[30vw]'>
+      App
     </div>
   );
 }
