@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Form from './Form'
+// import Form from './Form'
 
 const App = () => {
   return (
     <div>
-      <Form />
+      {/* <Form /> */}
     </div>
   )
 }
