@@ -1,12 +1,14 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React from 'react'
+import Form from './Form'
 
 const App = () => {
   return (
-    <>
-      <h1>app</h1>
-    </>
-  );
+    <div>
+      <Form />
+    </div>
+  )
 }
 
 export default App
+
