@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Card from './Card'
+import Form from './Form';
 // import Towaybinding from './Towaybinding'
 // import Form from './Form'
 
@@ -57,6 +58,7 @@ users.forEach((e)=> {
 
   return (
     <div>
+      <Form />
       <div className='p-10'>
         {users.map((elem)=> {
           // eslint-disable-next-line react/jsx-key
